@@ -251,10 +251,6 @@ input[type=submit] {
   .main-section {
     max-width: 60%;
   }
-  footer {
-    padding: 0px;
-    border-top: 2px solid #4aaaa5;
-  }
   .auth-image {
     float: none;
     padding: 20px 20px 0px 20px;
@@ -264,9 +260,12 @@ input[type=submit] {
   .work {
     width: 100%;
   }
+  footer {
+    padding: 0px;
+    border-top: 2px solid #4aaaa5;
+  }
 }
 
-  
 @media screen and (max-width: 768px) {
   .container {
     max-width: 640px;
@@ -276,7 +275,19 @@ input[type=submit] {
   }
   .sidebar {
     max-width: 100%;
+    margin-bottom: 50px;
   }
+  .auth-image {
+    width: 50%;
+  }
+  .work {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .work:nth-child(even) {
+  margin-right: 50px;
+  }
+
 }
 
 /*@media screen and (max-width: 640px) {
